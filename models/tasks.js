@@ -22,7 +22,10 @@ class Tasks {
     tasks.forEach((task) => {
       this._list[task.id] = task;
     });
+    console.log(asdas)
   }
+
+
 
   createTask(desc = "") {
     console.log("\n")
@@ -31,7 +34,7 @@ class Tasks {
   }
 
   completeList() {
-    /* //? MI SOLUCION
+    /* //? MI SOLUCION -
     Object.keys(this._list).forEach((key, index) => {
       let estado = ""
       index++
