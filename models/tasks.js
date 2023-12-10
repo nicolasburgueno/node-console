@@ -22,7 +22,6 @@ class Tasks {
     tasks.forEach((task) => {
       this._list[task.id] = task;
     });
-    console.log(asdas)
   }
 
 
